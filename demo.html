@@ -8,15 +8,26 @@
 	<script src="ski-slider.jquery.js"></script>
 	<script>
 		$(function(){
-			$('.ski-slider').skiSlider();
+			$('.ski-slider').skiSlider({
+
+			});
+			$('.ski-slider2').skiSlider({
+				arrows: false
+			});
 		});
 	</script>
 </head>
 <body>
 	<div class="ski-slider">
-		<li>Lorem 1</li>
-		<li>Lorem 2</li>
-		<li>Lorem 3</li>
+		<div>Lorem 1</div>
+		<div>Lorem 2</div>
+		<div>Lorem 3</div>
+	</div>
+
+	<div class="ski-slider2">
+		<div>Lorem 1</div>
+		<div>Lorem 2</div>
+		<div>Lorem 3</div>
 	</div>
 </body>
 </html>
